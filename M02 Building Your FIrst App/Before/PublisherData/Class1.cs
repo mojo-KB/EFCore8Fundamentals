@@ -1,7 +1,9 @@
 ﻿
-namespace PublisherData;
-
-public class PubContext : DbContext 
-{
-
+namespace PublisherData{
+    public class PubContext : DbContext
+    {
+        
+    }
 }
+
+
