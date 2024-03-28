@@ -1,6 +1,6 @@
 ﻿
 namespace PublisherData{
-    public class PubContext : DbContext
+    public class PubContext 
     {
         
     }
