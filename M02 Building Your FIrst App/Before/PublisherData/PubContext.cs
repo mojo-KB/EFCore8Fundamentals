@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PublisherData
 {
-    public class PubContext
+    public class PubContext : DbContext
     {
         
     }
