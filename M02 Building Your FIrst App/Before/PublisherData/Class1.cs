@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PublisherDomain;
+﻿
+using Microsoft.EntityFrameworkCore;
 
 namespace PublisherData
-{
-    public class PubContext: Dbcontext
+ {
+    public class PubContext : DbContext
     {
-
+        
     }
 }
+
+
