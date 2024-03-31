@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PublisherDomain;
 
-namespace PublisherData
+namespace PublisherData : DbContext
 {
-    public class PubContext: DbContext 
+    public class PubContext:
     {
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
